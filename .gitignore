@@ -1,5 +1,12 @@
-# Directories
+# Visual Studio 临时文件
 .vs/
-
-# Files
 *.user
+*.suo
+
+# 编译输出
+bin/
+bin-int/
+
+# 其他
+*.log
+*.tmp

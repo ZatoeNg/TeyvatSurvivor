@@ -70,6 +70,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)\bin</OutDir>
+    <IntDir>$(SolutionDir)\bin-int</IntDir>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -123,10 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Flip.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Ice.h" />
-    <ClInclude Include="sketch.h" />
+    <ClInclude Include="backup\Flip.h" />
+    <ClInclude Include="backup\Ice.h" />
+    <ClInclude Include="backup\sketch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />

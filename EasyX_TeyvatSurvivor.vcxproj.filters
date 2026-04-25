@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Flip.h">
+    <ClInclude Include="backup\Flip.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Game.h">
+    <ClInclude Include="backup\Ice.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="Ice.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="sketch.h">
+    <ClInclude Include="backup\sketch.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
